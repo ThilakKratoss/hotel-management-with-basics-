@@ -1,0 +1,132 @@
+#back{
+      background-image: url('129.jpeg'); 
+      background-size:cover;
+      background-repeat:repeat;
+      margin:-10px;
+      }
+ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    text-decoration:none;
+    color:white;
+  }
+  ul li{
+    float:left;
+    width:200px;
+    height: 40px;
+    background-color:black;
+    opacity: .8;
+    line-height:40px;
+    text-align:center;
+    font-size:20px;
+    margin-right:4px;
+    list-style:none;
+    color:white;    
+       }
+  ul li a{ 
+    text-decoration:none;
+    color:white;
+    display:block;
+    list-style:none;
+         }
+    ul li a:hover{
+      background-color:green;
+      list-style: none;
+      text-decoration:none;
+      color:white;
+                }
+    ul li ul li{
+      display:none;
+      list-style: none;
+               }
+    ul li:hover ul li{
+      display:block;
+      list-style: none;
+      text-decoration:none;
+      color:white;
+                     }
+   img.three{
+       margin-left:100px;
+       animation-iteration-count: 1;
+       animation-duration:2s;
+            }
+   
+   img.one1{
+        margin-top:250px;
+        margin-left:-720px;
+        animation-iteration-count: 1;
+        animation-duration:2s;
+          }
+img.five{
+  margin-left:100px;
+  animation-iteration-count: 1;
+       animation-duration:2s;
+}
+h1.two{
+  color:white;
+  margin-left:200px;
+  margin-bottom:-30px;
+  animation-iteration-count: 2;
+      }
+  h1.four{
+    color:white;
+    margin-left:500px;
+    margin-top:-30px;
+    animation-iteration-count: 2;
+        }
+  h1.six{
+    color:white;
+    margin-left:1000px;
+    margin-top:-60px;
+    animation-iteration-count: 2;
+        }
+  h1.seven{
+    color:rgb(22, 190, 212);
+    margin-top:100px;
+    margin-left:300px;
+    animation-delay: 2s;
+    animation-duration:2s;
+    animation-iteration-count: 3;
+           }
+  h1.topic{
+    margin-top:60px;
+    margin-left:450px;
+    animation-delay: 5s;
+    animation-iteration-count: 2;
+          }
+   h1.head{
+          margin-left:450px;
+          animation-delay: 5s;
+          animation-iteration-count: 2;   
+          }
+   img.first{
+     margin-left:100px;
+     animation-delay:5s;
+     animation-iteration-count:3;
+           }
+   img.second{
+    margin-left:100px;
+    animation-delay:5s;
+    animation-iteration-count:3;
+             }
+  img.third{
+    margin-left:100px;
+   animation-delay:5s;
+    animation-iteration-count:3;
+          }
+  img.first1{
+    margin-left:100px;
+    animation-delay:5s;
+    animation-iteration-count:3;
+  }
+  img.second1{
+   margin-left:100px;
+   animation-delay:5s;
+    animation-iteration-count:3;
+ }
+ img.third1{
+   margin-left:100px;
+   animation-delay:5s;
+    animation-iteration-count:3;
+ }

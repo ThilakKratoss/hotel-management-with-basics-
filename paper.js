@@ -1,0 +1,1 @@
+prompt("wht is ur name");

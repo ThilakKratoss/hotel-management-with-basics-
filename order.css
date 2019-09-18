@@ -1,0 +1,56 @@
+h1.thilak{
+    margin-left:400px;
+}
+body{
+    background-image:url("2001.jpeg");
+    background-size:cover;
+    background-repeat:repeat;
+}
+li{
+    color:rgb(230, 27, 78);
+    font-size: 25px;
+}
+
+    h1.description{
+        color:white;
+    }
+    h1.thilak{
+        color:white;
+    }
+    h1.dish{
+        color:rgb(241, 26, 26);
+        margin-top:150px;
+        margin-left:230px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    a.button {
+        display: inline-block;
+        box-sizing: border-box;
+        margin-left:600px;
+        padding: 10px;
+    
+        font: 13.3333px Arial;
+        text-rendering: auto;
+        text-align: center;
+        text-transform: none;
+        text-decoration: none;
+        text-indent: 0;
+        text-shadow: none;
+        letter-spacing: normal;
+        word-spacing: normal;
+        color:black;
+    
+        border: 2px;
+        border-image: initial;
+    
+        background-color: purple;
+    
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+    
+        cursor: pointer;
+        border-radius:5px;
+
+    }
+    

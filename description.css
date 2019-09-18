@@ -1,0 +1,340 @@
+#first{
+    background-image: url('62.jpeg'); 
+        background-size:cover;
+        background-repeat:repeat;
+        margin:-10px;
+   }
+ ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    text-decoration:none;
+    color:white;
+  }
+  ul li{
+    float:left;
+    width:200px;
+    height: 40px;
+    background-color:black;
+    opacity: .8;
+    line-height:40px;
+    text-align:center;
+    font-size:20px;
+    margin-right:4px;
+    list-style:none;
+    color:white;
+      
+  }
+  ul li a{ 
+    text-decoration:none;
+    color:white;
+    display:block;
+    list-style:none;
+    }
+    ul li a:hover{
+
+      background-color:green;
+      list-style: none;
+      text-decoration:none;
+      color:white;
+    }
+    ul li ul li{
+      display:none;
+      list-style: none;
+    }
+    ul li:hover ul li{
+      display:block;
+      list-style: none;
+      text-decoration:none;
+      color:white;
+    }
+.key{
+    margin:0px;
+}
+h1.right{
+    margin-left:330px;
+    margin-top:-400px;
+    font-family: "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-weight: bolder;
+}
+img.two{
+    position: absolute;
+    background-color:black;
+        }
+h1.desc{
+  color: blue;
+}
+.flip3d{
+  width:240px;height:200px;margin:80px;float:left;
+       }
+.flip3d > .front
+{
+  position:absolute;
+ -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(0deg);
+  background:violet;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("33.jfif");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip3d > .front1
+{
+  position:absolute;
+ -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(0deg);
+  background:violet;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("25.jfif");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip3d > .front2
+{
+  position:absolute;
+ -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(0deg);
+  background:violet;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("23.jfif");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip3d > .back
+{
+  position:absolute;
+  -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(180deg);
+  background:blue;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("32.jfif");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip3d > .back1
+{
+  position:absolute;
+  -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(180deg);
+  background:blue;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("6.jfif");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip3d > .back2
+{
+  position:absolute;
+  -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(180deg);
+  background:blue;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("39.jfif");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip3d:hover >.front{
+  transform:perspective(600px) rotateY(-180deg);
+}
+.flip3d:hover >.front1{
+  transform:perspective(600px) rotateY(-180deg);
+}
+.flip3d:hover >.front2{
+  transform:perspective(600px) rotateY(-180deg);
+}
+.flip3d:hover >.back{
+  transform:perspective(600px) rotateY(0deg);
+}
+.flip3d:hover >.back1{
+  transform:perspective(600px) rotateY(0deg);
+}
+.flip3d:hover >.back2{
+  transform:perspective(600px) rotateY(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+.flip4d{
+  width:240px;height:200px;margin:80px;float:left;
+       }
+.flip4d > .front
+{
+  position:absolute;
+ -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(0deg);
+  background:violet;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("1014.jpg");
+  color:white;
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip4d > .front1
+{
+  position:absolute;
+ -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(0deg);
+  background:violet;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("1008.jpg");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip4d > .front2
+{
+  position:absolute;
+ -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(0deg);
+  background:violet;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("1003.jpg");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip4d > .back
+{
+  position:absolute;
+  -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(180deg);
+  background:blue;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("1012.jpg");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip4d > .back1
+{
+  position:absolute;
+  -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(180deg);
+  background:blue;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("1001.jpg");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip4d > .back2
+{
+  position:absolute;
+  -webkit-transform:perspective(600) rotateY(0deg);
+  transform:perspective(600px) rotateY(180deg);
+  background:blue;width:240px;height:200px;border-radius:7px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  transition:-webkit-transform .5s linear 0s;
+  transition:transform .5s linear 0s;
+  background-image: url("1010.jpg");
+  font-weight:bold;
+  font-size:x-large;
+  text-align:center;
+  background-size:cover;
+}
+.flip4d:hover >.front{
+  transform:perspective(600px) rotateY(-180deg);
+}
+.flip4d:hover >.front1{
+  transform:perspective(600px) rotateY(-180deg);
+}
+.flip4d:hover >.front2{
+  transform:perspective(600px) rotateY(-180deg);
+}
+.flip4d:hover >.back{
+  transform:perspective(600px) rotateY(0deg);
+}
+.flip4d:hover >.back1{
+  transform:perspective(600px) rotateY(0deg);
+}
+.flip4d:hover >.back2{
+  transform:perspective(600px) rotateY(0deg);
+}
+
+h1.hover{
+  margin-left:350px;
+}
+
+h1.hover1{
+  margin-left:500px;
+}
+
+h1.house{
+  margin-left:310px;
+  margin-top:-780px;
+  font-weight: bolder;
+  font-size:50px;
+  color: rgb(133, 18, 133);
+}
+
+
+
+
+
+
+<for second layer images>
+
+
+    <h1 class="forth">A <br><br>ROOM<br><br> TO<br><br> MAKE<br><br> YOU<br><br> COMFORT<br><br> AND<br><br> LEGIBLE</h1>
+    <img src="58.jpeg" alt="1st image" class="two" >
+    <h1 class = "desc"> A BEST PLACE TO MAKE YOUR LIFE EMBRASSING</h1>
